@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="main-image-container">
+        <img class="main-image" id="mainimage" src="image1.jpg" alt="Main Image"/>
+        <div class="thumbnail-container">
+            <img src="image1.jpg" class="thumbnail" onclick="changeBackground(0)" alt="Image 1">
+            <img src="image2.jpg" class="thumbnail" onclick="changeBackground(1)" alt="Image 2">
+            <img src="image3.jpg" class="thumbnail" onclick="changeBackground(2)" alt="Image 3">
+        </div>
+    </div>
+    <button class="prev-button" onclick="previousImage()">&#8249;</button>
+    <button class="next-button" onclick="nextImage()">&#8250;</button>
+</body>
+</html>
+
